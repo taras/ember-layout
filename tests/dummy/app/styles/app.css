@@ -1,3 +1,42 @@
-html, body {
-  margin: 20px;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.application-header {
+  background: grey;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.application-footer {
+  height: 50px;
+  background: grey;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.application-title {
+  margin-top: 5px;
+}
+
+.application-title, .application-menu  {
+  display: inline-block;
+  color: white;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.menu-item a {
+  color: white;
+}
+
+.left-sidebar, .right-sidebar {
+  background: LightGray;
 }

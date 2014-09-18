@@ -1,0 +1,18 @@
+layout-container {
+  position: relative;
+  display: block;
+}
+
+layout-content, layout-sidebar {
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+}
+
+layout-sidebar.left-sidebar {
+  left: 0;
+}
+
+layout-sidebar.right-sidebar {
+  right: 0;
+}

@@ -5,6 +5,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('left-sidebar');
+  this.route('two-sidebars');
+  this.route('right-sidebar');
 });
 
 export default Router;

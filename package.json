@@ -32,5 +32,9 @@
     "ember-cli-qunit": "0.0.5",
     "express": "^4.8.5",
     "glob": "^4.0.5"
+  },
+  "dependencies": {
+    "ember-velocity-mixin": "^0.1.4",
+    "ember-resize-mixin": "^0.1.0"
   }
 }
